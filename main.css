@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+
+body
+{background-image: url("images/background.jpg");
+}
+	
+#container{
+width: 800px;
+margin: 0 auto;
+	background-color: rgba(104,34,35,1.00);
+	background: rgba(69,59,182,1.00)
+}
+
+
+
+
+.left{
+	width:380px;
+	height: 200px;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 20px;
+	float: left;
+	margin: 0px 10px 0px 10px;
+
+	
+}
+
+.right{
+	width:380px;
+	height: 200px;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 20px;
+	float: left;
+	
+}
+
+header h1 {
+	background-color: #016300;
+	padding: 10px;
+}
+
