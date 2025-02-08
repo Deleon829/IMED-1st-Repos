@@ -11,7 +11,6 @@ body
 #container{
 width: 800px;
 margin: 0 auto;
-	background-color: rgba(104,34,35,1.00);
 	background: rgba(69,59,182,1.00)
 }
 
@@ -35,11 +34,31 @@ margin: 0 auto;
 	background-color: rgba(255,255,255,.5);
 	border-radius: 20px;
 	float: left;
+	margin: 0px 0px 10px 0px;
 	
 }
 
 header h1 {
-	background-color: #016300;
-	padding: 10px;
+	width: 800px;
+	margin: 0 auto;
+	background-color: rgba(104,34,35,1.00);
+	background: rgba(69,59,182,1.00)
+	rgba(135,15,17,1.00)
+
 }
+
+footer {
+	background-color: rgba(15,179,228,1.00);
+	clear: both;
+}
+
+header > h1 {
+	text-align: center;
+}
+
+#container .right{
+	background-color:rgba(44,79,17,1.00)
+}
+
+
 
