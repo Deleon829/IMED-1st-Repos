@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @charset "UTF-8";
 /* CSS Document */
 *{
@@ -58,7 +59,37 @@ header > h1 {
 
 #container .right{
 	background-color:rgba(44,79,17,1.00)
+=======
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	
 }
 
 
 
+	body
+	{background-image: url("images/background.jpg");
+	}
+
+#container {
+width: 800px;
+margin: 0 auto;
+}
+.left {	
+	width: 380px;
+	height: 200px;
+	background-color: rgba(255,255,255,0.50)
+>>>>>>> Stashed changes
+}
+
+
+
+<<<<<<< Updated upstream
+=======
+
+
+
+
+>>>>>>> Stashed changes
