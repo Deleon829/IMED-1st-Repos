@@ -1,8 +1,7 @@
-<<<<<<< Updated upstream
 @charset "UTF-8";
 /* CSS Document */
 *{
-	box-sizing: border-box;
+	
 }
 
 body
@@ -11,8 +10,9 @@ body
 	
 #container{
 width: 800px;
-margin: 0 auto;
-	background: rgba(69,59,182,1.00)
+height: 1500px;
+background: rgba(69,59,182,1.00)
+
 }
 
 
@@ -25,7 +25,6 @@ margin: 0 auto;
 	border-radius: 20px;
 	float: left;
 	margin: 0px 10px 0px 10px;
-
 	
 }
 
@@ -59,37 +58,38 @@ header > h1 {
 
 #container .right{
 	background-color:rgba(44,79,17,1.00)
-=======
-@charset "utf-8";
-/* CSS Document */
-*{
-	box-sizing: border-box;
 	
 }
 
-
-
-	body
-	{background-image: url("images/background.jpg");
-	}
-
-#container {
-width: 800px;
-margin: 0 auto;
-}
-.left {	
-	width: 380px;
-	height: 200px;
-	background-color: rgba(255,255,255,0.50)
->>>>>>> Stashed changes
+a:link {
+	
+	color:yellow;
+	font-size: 26px;
+	text-decoration: overline;
+	
 }
 
+footer {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	
+}
+
+.oswald-unique {
+  font-family: "oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 
 
-<<<<<<< Updated upstream
-=======
+a:hover {
+	
+	font-size: 1.2em;
+}
+
+a.visited{
+	
+	color:pink;
+}
 
 
-
-
->>>>>>> Stashed changes
