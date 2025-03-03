@@ -15,10 +15,29 @@
 	#container{
 		width:1000px;
 		background-color; 
-		height: 600px; 
-		margin:0 auto; 
+		height: auto; 
+		margin: 0 auto;
+		padding: 20px;
 		
 	}
+	
+	table {
+		width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+	}
+	
+	th,td{
+		 border: 1px solid #000;
+        padding: 10px;
+        text-align: left;
+		}
+	
+	 th {
+        background-color: #016300;
+        color: white;
+    }
+	
 	p{color:white;
 	}
 	.floatLeft{
@@ -47,17 +66,16 @@
 	
 
 </style>
+<script>
+    function showMessage() {
+        alert("Thank you for visiting Pawsitive Beginnings! 🐶🐾");
+    }
+</script>
 </head>
-<body>
-
+<body
+onload="showMessage()">
 <p><abbr title="Pawsitive Beginnings">PB</abbr> was founded in 2025.</p>
 
-	
-		
-	
-<div id="container" >
-
-		
 	<img src="images/Adoptiondog1.jpg" style="width:300px;height:300px" alt="Milo just adopted" usemap="#goodboy">
 <map name="goodboy">
     <area shape="rect" coords="0,0,300,300" alt="Milo just adopted" href="milojustadopted.html"/>
@@ -72,8 +90,60 @@
 	<header><h2 style="color: aliceblue;">Welcome to Pawsitive Beginnings, where every pet deserves a fresh start. Our mission is to connect loving families with furry friends in need of a forever home. We believe that <em>every</em> tail has a story, and with a little love and care, every pet deserves a second chance at happiness. Join us in giving these amazing animals the opportunity to begin a new chapter filled with love, joy, and companionship.&nbsp;</h2></header>
   <header><h3 style="color: aliceblue;">Join us very Monday and Thursdays at 5pm for our "<strong>Play With the Pups</strong>" event.	  
 </h3></header>
-
 	
+	
+	
+<div id="container" >
+
+	<h2>Adoptable Dogs</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Milo</td>
+            <td>Labrador</td>
+            <td>2 years</td>
+        </tr>
+        <tr>
+            <td>Blueberry</td>
+            <td>Beagle</td>
+            <td>1 year</td>
+        </tr>
+        <tr>
+            <td>Bella</td>
+            <td>Golden Retriever</td>
+            <td>3 years</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td>Poodle</td>
+            <td>4 years</td>
+        </tr>
+        <tr>
+            <td>Daisy</td>
+            <td>Shih Tzu</td>
+            <td>5 years</td>
+        </tr>
+    </table>
+		
+	<h2>Why Adopt?</h2>
+    <ul>
+        <li style="color: blue;">Save a life</li>
+        <li style="color: green;">Gain a lifelong friend</li>
+        <li style="color: red;">Support animal welfare</li>
+    </ul>
+	
+	<h2>Steps to Adopt</h2>
+    <ol>
+        <li>Visit our shelter</li>
+        <li>Meet the pets</li>
+        <li>Complete an adoption form</li>
+    </ol>
+
+	  <iframe width="500" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 	
 <section class="clearfix">
 	<article class="left">
