@@ -8,7 +8,7 @@ body
 {background-image: url("images/background.jpg");
 }
 	
-#container{
+#container{ 
 width: 800px;
 height: 1500px;
 background: rgba(69,59,182,1.00)
