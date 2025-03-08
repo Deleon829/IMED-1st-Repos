@@ -1,70 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pawsitive Beginnings</title>
 <link rel="stylesheet" href="main.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 <style>
-	*{ box-sizing: border-box; }
-	#container{
-		width:1000px;
-		background-color; 
-		height: auto; 
-		margin: 0 auto;
-		padding: 20px;
-		
-	}
+	a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}		
+
+</body>
+</html>
+
+
 	
-	table {
-		width: 100%;
+	
+	{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Oswald', sans-serif;
+        background-color: transparent;
+        text-align: center;
+    }
+    #container {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 10px;
+    }
+    h1, h2, h3 {
+        color: #016300;
+    }
+    table {
+        width: 100%;
         border-collapse: collapse;
-        margin-top: 20px;
-	}
-	
-	th,td{
-		 border: 1px solid #000;
+        margin: 20px auto;
+    }
+    th, td {
+        border: 1px solid #000;
         padding: 10px;
-        text-align: left;
-		}
-	
-	 th {
+    }
+    th {
         background-color: #016300;
         color: white;
     }
+    ul, ol {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding: 5px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 0 15px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #016300;
+        font-weight: bold;
+    }
+    footer {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #016300;
+        color: white;
+        border-radius: 5px;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .image-container img {
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+    .circle-shape {
+        width: 100px;
+        height: 100px;
+        background-color: #016300;
+        border-radius: 50%;
+        margin: 20px auto;
+    }
+    iframe {
+        display: block;
+        margin: 20px auto;
+    }
+    form {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #016300;
+        border-radius: 5px;
+        display: inline-block;
+        background-color: #f9f9f9;
+    }
 	
-	p{color:white;
-	}
-	.floatLeft{
-		float:left;
-		width:250px;
-		background-color: #016300;
-	}
-	
-	footer{
-		clear:both;
-	}
-	#main{
-		margin-left: 20px;
-		background-color: aliceblue;
-		padding-left: 20px;
-	}
-	
-	
-	li a{
-		color:#fff;
-	}
 
-	em {
-		font-style: italic
-	}
 	
-
+    label, input, textarea, select {
+        display: block;
+        margin: 10px auto;
+    }
+    input, textarea, select {
+        padding: 8px;
+        width: 80%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        background-color: #016300;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
 </style>
 <script>
     function showMessage() {
@@ -72,99 +137,96 @@
     }
 </script>
 </head>
-<body
-onload="showMessage()">
-<p><abbr title="Pawsitive Beginnings">PB</abbr> was founded in 2025.</p>
+<body onload="showMessage()">
+    <div id="container">
 
-	<img src="images/Adoptiondog1.jpg" style="width:300px;height:300px" alt="Milo just adopted" usemap="#goodboy">
-<map name="goodboy">
-    <area shape="rect" coords="0,0,300,300" alt="Milo just adopted" href="milojustadopted.html"/>
-</map>
+		<header>
+            <h1>Pawsitive Beginnings</h1>
 
-	
-	<img src="images/Adoptiondog2.jpg" alt="Still waiting" style="width:300px;height:150px">	
-	<img src="images/DSC_5521.JPG" alt="Blueberry" style="width:250px;height:300px">
-	
+<ul>
+  <li><a class="active" href="#home">Dogs</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
-  <header><h1 class="oswald-unique" style="color: aliceblue;">Pawsitive Beginnings</h1></header>
-	<header><h2 style="color: aliceblue;">Welcome to Pawsitive Beginnings, where every pet deserves a fresh start. Our mission is to connect loving families with furry friends in need of a forever home. We believe that <em>every</em> tail has a story, and with a little love and care, every pet deserves a second chance at happiness. Join us in giving these amazing animals the opportunity to begin a new chapter filled with love, joy, and companionship.&nbsp;</h2></header>
-  <header><h3 style="color: aliceblue;">Join us very Monday and Thursdays at 5pm for our "<strong>Play With the Pups</strong>" event.	  
-</h3></header>
+			<h2>Welcome to Pawsitive Beginnings, where every pet deserves a fresh start.</h2>
+            <h3>Join us every Monday and Thursday at 5pm for our "<strong>Play With the Pups</strong>" event.</h3>
+        </header>
+        <div class="circle-shape"></div>
+        <p><abbr title="Pawsitive Beginnings">PB</abbr> was founded in 2025.</p>
+        <div class="image-container">
+            <img src="images/Adoptiondog1.jpg" style="width:300px;height:300px" alt="Milo just adopted">
+            <img src="images/DSC_5521.JPG" alt="Blueberry" style="width:250px;height:300px">
+        </div>
+        <h2>Adoptable Dogs</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Breed</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Milo</td>
+                <td>Labrador</td>
+                <td>2 years</td>
+            </tr>
+            <tr>
+                <td>Blueberry</td>
+                <td>Beagle</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>Bella</td>
+                <td>Golden Retriever</td>
+                <td>3 years</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>Poodle</td>
+                <td>4 years</td>
+            </tr>
+            <tr>
+                <td>Daisy</td>
+                <td>Shih Tzu</td>
+                <td>5 years</td>
+            </tr>
+        </table>
+        <h2>Adoption Inquiry Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="pet">Which pet are you interested in?</label>
+            <select id="pet" name="pet">
+                <option value="milo">Milo</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="bella">Bella</option>
+                <option value="charlie">Charlie</option>
+                <option value="daisy">Daisy</option>
+            </select>
+            
+            <label for="message">Why do you want to adopt?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+           
+			
 	
-	
-	
-<div id="container" >
-
-	<h2>Adoptable Dogs</h2>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Breed</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Milo</td>
-            <td>Labrador</td>
-            <td>2 years</td>
-        </tr>
-        <tr>
-            <td>Blueberry</td>
-            <td>Beagle</td>
-            <td>1 year</td>
-        </tr>
-        <tr>
-            <td>Bella</td>
-            <td>Golden Retriever</td>
-            <td>3 years</td>
-        </tr>
-        <tr>
-            <td>Charlie</td>
-            <td>Poodle</td>
-            <td>4 years</td>
-        </tr>
-        <tr>
-            <td>Daisy</td>
-            <td>Shih Tzu</td>
-            <td>5 years</td>
-        </tr>
-    </table>
+            <button type="submit">Submit</button>
+        </form>
+        <footer>copyright Alyssa Deleon 2025</footer>
 		
-	<h2>Why Adopt?</h2>
-    <ul>
-        <li style="color: blue;">Save a life</li>
-        <li style="color: green;">Gain a lifelong friend</li>
-        <li style="color: red;">Support animal welfare</li>
-    </ul>
-	
-	<h2>Steps to Adopt</h2>
-    <ol>
-        <li>Visit our shelter</li>
-        <li>Meet the pets</li>
-        <li>Complete an adoption form</li>
-    </ol>
-
-	  <iframe width="500" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-	
-<section class="clearfix">
-	<article class="left">
-	</article>
-	<article class="right">
-	  <p></p>
-	  <p></p>
-	</article>
-	<nav>
-	 	<ul >
+		<audio controls> 
+		<source src="Sounds/a_dog_barking.mp3" type="audio/mpeg">
+		</audio>
 		
-      <li><a href="#">How to Adopt</a></li> 
-      <li><a href="#">Locations</a></li>
-      <li><a href="#">How to Donate</a></li>
-	
-    
-			</ul>
-	 	</nav>
-	</section>		
-	<footer>copyright Alyssa Deleon 2025</footer>
-	</div>
-		
+		<video width="320" height="240" controls>
+  <source src="invideo-ai-1080 Pawsome Playtime_ Two Dogs Having a Blas 2025-03-08.mp4" type="video/mp4">
+		</video>
+</div>
 </body>
 </html>
+
+
